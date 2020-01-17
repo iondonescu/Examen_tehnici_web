@@ -1,0 +1,142 @@
+﻿html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* header style*/
+#header {
+    background-color: #c9f2f2;
+    box-shadow: 0px 3px #888888;
+    margin-bottom: 10px;
+    height: 60px;
+    margin-right: 0;
+}
+
+.header-inner {
+    width: 100%;
+    display:inline-flex;
+}
+
+.logo-image {
+    width:33.33%;
+}
+
+.logo {
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 33.33%;
+}
+.course {
+    font-size:20px;
+    width:33.33%;
+    text-align:center;
+}
+.course>h1 {
+    margin:0;
+    padding-top:5px;
+}
+
+.student {
+    padding-top: 0px;
+    padding-right: 5px;
+    color: #2d3c49;
+    width:33.33%;
+    display:grid;
+    text-align:center;
+}
+
+.student-name {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 0px;
+}
+
+.student-year {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+}
+/*end of header style*/
+
+/* links to projects */
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.project {
+    border:medium;
+    margin: 10px;
+    width: 600px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#projects > div  > h3 {
+    font-size: 30px;
+}
+
+#projects > div >  a > img {
+    width:600px;
+    height:600px;
+}
+
+#projects > div > a > img:hover {
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .course {
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+    }
+
+    .studentName {
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 0px;
+    }
+
+    .studentYear {
+        font-size: 10px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    #projects {
+        display:inline-block;
+    }
+}
+
+@media (min-width:601px) and (max-width: 787px) {
+    .course {
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+    }
+
+    .studentName {
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 0px;
+    }
+
+    .studentYear {
+        font-size: 10px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}

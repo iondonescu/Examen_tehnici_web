@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: #c9f2f2;
+  box-shadow: 0px 3px #888888;
+  margin-bottom: 10px;
+  height: 60px;
+  margin-right: 0;
+}
+
+.headerInner {
+  width: 100%;
+  display: inline-flex;
+}
+
+.logoImage {
+  width: 33.33%;
+}
+
+.logo {
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 33.33%;
+}
+
+.course {
+  font-size: 20px;
+  width: 33.33%;
+  text-align: center;
+}
+
+.course > h1 {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.student {
+  padding-top: 0px;
+  padding-right: 5px;
+  color: #2d3c49;
+  width: 33.33%;
+  display: grid;
+  text-align: center;
+}
+
+.studentName {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 0px;
+}
+
+.studentYear {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}
+h1 {
+  font-family: Monoton;
+  font-size: 30px;
+  margin: 0.2em;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 10px;
+}
+
+td {
+  width: 10px;
+}
+
+input[type="number"] {
+  width: 6em;
+}
